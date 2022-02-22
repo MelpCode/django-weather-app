@@ -1,0 +1,13 @@
+
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="form-group mb-4">
+            <form action="/search/" method="POST" class="form-horizontal">{%csrf_token%}
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control ms-3" id="city" name="city" placeholder="Search city" aria-describedby="citys">
+                    <button type="submit" class="btn btn-outline-secondary" type="button" id="citys">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

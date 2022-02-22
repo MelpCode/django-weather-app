@@ -1,0 +1,13 @@
+{%extends 'layout/layout.html'%}
+{%block content%}
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div class="card card-body mb-3">
+                <p>{{data.name}}</p>
+                <h2>{{data.temp}}</h2>
+                <p>Pressure: {{data.pressure}}hPa</p>
+                <p>Humidity: {{data.humidity}}%</p>
+            </div>
+        </div>
+    </div>
+{%endblock%}

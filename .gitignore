@@ -1,0 +1,5 @@
+venv
+django_weather_app/weather/static/js/vars.js
+django_weather_app/weather/vars.py
+requirements.txt
+django_weather_app/django_weather_app/vars.py
